@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (!currentUser) {
         // 로그인되지 않았으면 index 페이지로
-        window.location.href = 'index.html';
+        window.location.href = 'https://sucheoli.github.io/MyPage/index.html';
         return;
     }
     
