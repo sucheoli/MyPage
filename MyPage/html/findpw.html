@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비밀번호 찾기</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/findpw.css">
+</head>
+<body>
+    <div class="container">
+        <h1>비밀번호 찾기</h1>
+        <p class="subtitle">가입하신 이메일을 입력하세요</p>
+        
+        <form id="findpwForm">
+            <div class="form-group">
+                <label for="findpwEmail">이메일</label>
+                <input type="email" id="findpwEmail" placeholder="example@email.com" required>
+                <div class="error" id="findpwError"></div>
+            </div>
+
+            <button type="submit" class="btn">비밀번호 재설정 링크 전송</button>
+        </form>
+
+        <div class="link">
+            <a href="login.html">로그인으로 돌아가기</a>
+        </div>
+    </div>
+
+    <script src="../js/findpw.js"></script>
+</body>
+</html>

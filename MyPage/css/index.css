@@ -1,0 +1,8 @@
+/* index.html 전용 스타일 */
+h1 {
+    font-size: 32px;
+}
+
+.btn {
+    margin-top: 15px;
+}

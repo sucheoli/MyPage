@@ -1,0 +1,25 @@
+/* signup.html 전용 스타일 */
+.password-strength {
+    height: 5px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.password-strength-bar {
+    height: 100%;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    width: 0;
+}
+
+.strength-text {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #666;
+}
+
+.error {
+    text-align: left;
+}
