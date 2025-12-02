@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // 로그아웃 함수
 function logout() {
     localStorage.removeItem('currentUser');
-    window.location.href = 'index.html';
+    window.location.href = '/MyPage/index.html';
 }
 
 // 테스트용 사용자 초기화
